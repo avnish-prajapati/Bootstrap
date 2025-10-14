@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> day-7</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="container-fluid bg-dark">
+
+
+        <nav class="navbar navbar-expand-lg bg-dark text-light me-5 ms-5">
+
+            <h3 class="navbar-brand navbar text-light " href="#"> My website</h3>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto ">
+                    <li class="nav-item ">
+                        <a class="nav-link active text-light" aria-current="page" href="#">Gallary</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">Service</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">FAQ</a>
+                    </li>
+
+                </ul>
+            </div>
+
+        </nav>
+    </div>
+
+    <!-- second-section -->
+    <div class="container ">
+        <h1 class="text-center mt-3 ">Gallery</h1>
+        <div class=" d-flex justify-content-center mb-3">
+            <ul class="nav nav-tabs " id="myTab" role="tablist">
+                <li class="nav-item  " role="presentation">
+                    <button class="nav-link active " id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane"
+                        type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Web</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane"
+                        type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">App</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane"
+                        type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Desion</button>
+                </li>
+
+            </ul>
+        </div>
+        <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab"
+                tabindex="0">
+                <div class="container">
+                    <div class="row  mt-2">
+
+                        <div class="col-4 child-row2">
+                            <div class="card">
+                                <img class="img-fluid w-100"
+                                    src="https://images.pexels.com/photos/67517/pexels-photo-67517.jpeg?cs=srgb&dl=landscape-mountains-nature-67517.jpg&fm=jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h2>Web project 1</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 child-row2">
+                            <div class="card">
+                                <img class="img-fluid w-100" src="https://wallpaperaccess.com/full/1848930.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h2>Web project 2</h2>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+                <div class="col-4 child-row2 child-row2">
+                    <div class="card">
+                        <img class="img-fluid w-100"
+                            src="https://widetopics.com/wp-content/uploads/2022/06/lake-eacham-qld-1.jpg"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h2>App Project 1</h2>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
+                <div class="col-4 child-row2 child-row2 ">
+                    <div class="card">
+                        <img class="img-fluid w-100"
+                            src="https://i.pinimg.com/originals/4c/d2/03/4cd203cc2313be9a41a6800f76ca848b.jpg"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h2>Desion Project 1</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="disabled-tab-pane" role="tabpanel" aria-labelledby="disabled-tab"
+                tabindex="0">...</div>
+        </div>
+    </div>
+    </div>
+
+    <!-- third section -->
+
+    <div class="container">
+        <h1 class="text-center">Our Service</h1>
+        <div class="row  row-cols-sm-2  row-cols-md-3 row-cols-1 mb-5 row3 ">
+            <div class="col-4 child-row3">
+                <div class="card text-center mb-3">
+                    <div class="card-body">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="72" height="72"
+                            fill="rgba(4,132,70,1)">
+                            <path
+                                d="M7 4V20H17V4H7ZM6 2H18C18.5523 2 19 2.44772 19 3V21C19 21.5523 18.5523 22 18 22H6C5.44772 22 5 21.5523 5 21V3C5 2.44772 5.44772 2 6 2ZM12 17C12.5523 17 13 17.4477 13 18C13 18.5523 12.5523 19 12 19C11.4477 19 11 18.5523 11 18C11 17.4477 11.4477 17 12 17Z">
+                            </path>
+                        </svg>
+                        <h5 class="card-title"> Web development</h5>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.
+                        </p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 child-row3">
+                <div class="card text-center mb-3">
+                    <div class="card-body">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="72" height="72"
+                            fill="rgba(4,132,70,1)">
+                            <path
+                                d="M7 4V20H17V4H7ZM6 2H18C18.5523 2 19 2.44772 19 3V21C19 21.5523 18.5523 22 18 22H6C5.44772 22 5 21.5523 5 21V3C5 2.44772 5.44772 2 6 2ZM12 17C12.5523 17 13 17.4477 13 18C13 18.5523 12.5523 19 12 19C11.4477 19 11 18.5523 11 18C11 17.4477 11.4477 17 12 17Z">
+                            </path>
+                        </svg>
+                        <h5 class="card-title"> App development</h5>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.
+                        </p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 child-row3">
+                <div class="card text-center mb-3">
+                    <div class="card-body">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="72" height="72"
+                            fill="rgba(211,2,2,1)">
+                            <path
+                                d="M12 2C17.5222 2 22 5.97778 22 10.8889C22 13.9556 19.5111 16.4444 16.4444 16.4444H14.4778C13.5556 16.4444 12.8111 17.1889 12.8111 18.1111C12.8111 18.5333 12.9778 18.9222 13.2333 19.2111C13.5 19.5111 13.6667 19.9 13.6667 20.3333C13.6667 21.2556 12.9 22 12 22C6.47778 22 2 17.5222 2 12C2 6.47778 6.47778 2 12 2ZM7.5 12C8.32843 12 9 11.3284 9 10.5C9 9.67157 8.32843 9 7.5 9C6.67157 9 6 9.67157 6 10.5C6 11.3284 6.67157 12 7.5 12ZM16.5 12C17.3284 12 18 11.3284 18 10.5C18 9.67157 17.3284 9 16.5 9C15.6716 9 15 9.67157 15 10.5C15 11.3284 15.6716 12 16.5 12ZM12 9C12.8284 9 13.5 8.32843 13.5 7.5C13.5 6.67157 12.8284 6 12 6C11.1716 6 10.5 6.67157 10.5 7.5C10.5 8.32843 11.1716 9 12 9Z">
+                            </path>
+                        </svg>
+                        <h5 class="card-title"> UI/UX Dsion</h5>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.
+                        </p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- fourth section  -->
+    <div class="container">
+        <h1 class="text-center">
+            Frequently Asked Qustions
+        </h1>
+        <div class="row">
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            What services do you offer?
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            We offer various digital services.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Do you provide support?
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Yes, we provide 24/7 customer support.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            How can I contact you?
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            You can contact us via email or phone.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
